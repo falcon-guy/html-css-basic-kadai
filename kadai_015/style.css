@@ -1,3 +1,7 @@
+html {
+  font-size: 20px; /* 基本フォントサイズを設定 */
+}
+
 body {
         font-family: "Arial", "Meiryo", sans-serif;
         text-align: center;
