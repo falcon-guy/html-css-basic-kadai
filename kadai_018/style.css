@@ -54,15 +54,15 @@
     width: 400px;
     height:100px;
     background-color: #e5dcf0;
-    position: absolute;
   }
 
   #bottom-child02{
-    top: 100px;
     left: 200px;
+    position: absolute;
   }
 
   #bottom-child03{
-    top: 200px;
     left: 400px;
+    bottom: 0;
+    position: absolute;
   }
