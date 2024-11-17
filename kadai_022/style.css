@@ -11,12 +11,12 @@ body{
     margin: 0;
 }
 
-p a{
+p,a{
 font-size: 20px;
 }
 
 header{
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     color: rgb(244, 79, 79);
     text-align: center;
 }
@@ -66,12 +66,12 @@ a{
     color: rgb(255, 255, 255);
 }
 
-a:link{
-    color: rgb(193, 234, 251);
+a:visited{
+   color: rgb(193, 234, 251);
 }
 
-a:visited{
-   color: rgb(245, 178, 168);
+a:hover {
+    color: rgb(245, 178, 168);
 }
 
 @media screen and (max-width: 768px) {
