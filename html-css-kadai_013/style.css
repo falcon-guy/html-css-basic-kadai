@@ -69,7 +69,6 @@ PC用のスタイル
 
 }
 
-
 /*================
 SP用のスタイル 
 =================*/
@@ -79,9 +78,9 @@ SP用のスタイル
         margin: 0;
       }
 
-    #nav-sp {
-        display:none;
-      }
+    #nav-pc {
+      display:none;
+    }
 
     #menu-sp {
         float: right;
@@ -125,23 +124,23 @@ SP用のスタイル
         color: #ffffff;
       }
 
-      #nav-spa:visited{
+      #nav-sp a:visited{
         color: #ffffff;
       }
 
-      #nav-spa:hover{
+      #nav-sp a:hover{
         color: #ffffff;
         text-decoration: underline;
       }
 
-      #nav-spa:active{
+      #nav-sp a:active{
         color: #ffffff;
       }
 
-      #nav-sp.menu{
+      #nav-sp .menu{
         text-decoration: none;
         display: block;
-        margin: 0 20px 0 20px;
+        margin: 0 20px;
         height: 44px;
         font-size: 16px;
         background-image: url("images/arrow.png");
